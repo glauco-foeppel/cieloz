@@ -1,7 +1,7 @@
 module Cieloz
   module Bandeiras
-    ALL = %w(amex diners discover elo mastercard visa)
-    AMEX, DINERS, DISCOVER, ELO, MASTERCARD, VISA = ALL
+    ALL = %w(amex diners discover elo mastercard visa aura)
+    AMEX, DINERS, DISCOVER, ELO, MASTERCARD, AURA, VISA = ALL
 
     def self.operacao produto
       produto = produto.to_s
